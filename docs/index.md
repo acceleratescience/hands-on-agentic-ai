@@ -81,7 +81,7 @@ You can work through the workshop in order... or you can just pick a section tha
 -   :fontawesome-solid-book:{ .lg .middle } [__Project overview__](2_project_overview.md)
 
     ---
-    An overview of the project - moving from Jupyter Notebooks to python scripts
+    An overview of the project - moving from Jupyter Hands-On-LLMs to python scripts
 
 -   :material-feather:{ .lg .middle } [__Poetry__](3_poetry.md)
 

@@ -27,10 +27,10 @@
     <img src="./docs/imgs/full_acc.png" alt="Logo" height=80>
   </a>
 
-  <h3 align="center">Hands On Workshop for Large Language Models</h3>
+  <h3 align="center">Hands On Workshop for Agentic AI</h3>
 
   <p align="justify">
-    An introduction to large language models for scientific research - a practical introduction to using models.
+    An introduction to Agentic AI for scientific research - a practical introduction to using models.
   </p>
   <p align="center">
     <!-- <a href="https://acceleratescience.github.io/diffusion-models/" style="font-size: 20px; text-decoration: none"><strong>Start »</strong></a>

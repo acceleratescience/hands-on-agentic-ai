@@ -3,7 +3,7 @@ import subprocess
 
 SANDBOX_DIR = Path("./sandbox").resolve()
 
-def write_file(filename: str, content: str) -> str:
+def write_file(filename, content):
     path = (SANDBOX_DIR / filename).resolve()
 
     if SANDBOX_DIR not in path.parents:
@@ -15,7 +15,31 @@ def write_file(filename: str, content: str) -> str:
     return str(path.relative_to(SANDBOX_DIR))
 
 
-def run_command(command: str, timeout: int = 60) -> dict:
+def read_file(filename, max_bytes=10000):
+    path = (SANDBOX_DIR / filename).resolve()
+
+    if SANDBOX_DIR not in path.parents and path != SANDBOX_DIR:
+        raise ValueError("Refusing to read outside sandbox")
+
+    if not path.exists():
+        raise FileNotFoundError(f"{filename} does not exist")
+
+    if path.is_dir():
+        raise IsADirectoryError(f"{filename} is a directory")
+
+    raw = path.read_bytes()
+    total_len = len(raw)
+
+    truncated = raw[:max_bytes]
+    text = truncated.decode("utf-8", errors="replace")
+
+    if total_len > max_bytes:
+        text += f"\n... (output truncated, length: {total_len})"
+
+    return text
+
+
+def run_command(command, timeout=60):
     result = subprocess.run(
         command,
         cwd=SANDBOX_DIR,

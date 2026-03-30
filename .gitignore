@@ -9,4 +9,4 @@ __pycache__/
 .idea/
 
 # Python package build artifacts
-# *.egg-info/
+*.egg-info/

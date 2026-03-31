@@ -7,14 +7,14 @@
 [![Issues][issues-shield]][issues-url]
 [![GPL License][license-shield]][license-url] -->
 [![MIT License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/)
-[![Issues](https://img.shields.io/github/issues-raw/acceleratescience/hands-on-llms.svg?maxAge=25000)](https://github.com/acceleratescience/hands-on-llms/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/acceleratescience/hands-on-llms.svg?style=flat)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/acceleratescience/hands-on-llms.svg?style=flat)]()
+[![Issues](https://img.shields.io/github/issues-raw/acceleratescience/hands-on-agentic-ai.svg?maxAge=25000)](https://github.com/acceleratescience/hands-on-agentic-ai/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/acceleratescience/hands-on-agentic-ai.svg?style=flat)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/acceleratescience/hands-on-agentic-ai.svg?style=flat)]()
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 <br>
-[![GitHub stars](https://img.shields.io/github/stars/acceleratescience/hands-on-llms.svg?style=social&label=Star)]()
-[![GitHub watchers](https://img.shields.io/github/watchers/acceleratescience/hands-on-llms.svg?style=social&label=Watch)]()
-[![GitHub forks](https://img.shields.io/github/forks/acceleratescience/hands-on-llms.svg?style=social&label=Fork)](https://github.com/JonSnow/MyBadges)
+[![GitHub stars](https://img.shields.io/github/stars/acceleratescience/hands-on-agentic-ai.svg?style=social&label=Star)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/acceleratescience/hands-on-agentic-ai.svg?style=social&label=Watch)]()
+[![GitHub forks](https://img.shields.io/github/forks/acceleratescience/hands-on-agentic-ai.svg?style=social&label=Fork)](https://github.com/JonSnow/MyBadges)
 [![GitHub followers](https://img.shields.io/github/followers/acceleratescience.svg?style=social&label=Follow)](https://github.com/JonSnow/MyBadges)
 [![Twitter Follow](https://img.shields.io/twitter/follow/AccelerateSci.svg?style=social)](https://twitter.com/AccelerateSci)
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://acceleratescience.github.io/">
-    <img src="./docs/imgs/full_acc.png" alt="Logo" height=80>
+    <img src="./assets/imgs/full_acc.png" alt="Logo" height=80>
   </a>
 
   <h3 align="center">Hands On Workshop for Agentic AI</h3>
@@ -33,14 +33,14 @@
     An introduction to Agentic AI for scientific research - a practical introduction to using models.
   </p>
   <p align="center">
-    <!-- <a href="https://acceleratescience.github.io/diffusion-models/" style="font-size: 20px; text-decoration: none"><strong>Start »</strong></a>
+    <!-- <a href="https://acceleratescience.github.io/hands-on-agentic-ai/" style="font-size: 20px; text-decoration: none"><strong>Start »</strong></a>
     <br />
     <br /> -->
     <a href="https://github.com/acceleratescience/large-language-models">Check out the introductory course</a>
     <br />
-    <a href="https://github.com/acceleratescience/hands-on-llms/issues">Report Bug</a>
+    <a href="https://github.com/acceleratescience/hands-on-agentic-ai/issues">Report Bug</a>
     ·
-    <a href="https://github.com/acceleratescience/hands-on-llms/issues">Request Feature</a>
+    <a href="https://github.com/acceleratescience/hands-on-agentic-ai/issues">Request Feature</a>
     <br />
     <br />
     <a href="https://docs.science.ai.cam.ac.uk/hands-on-llms/"><strong>Head to the hands-on course Website »</strong></a>
@@ -91,7 +91,7 @@ We also strongly recommend our introductory course on LLMs
 
 ---
 
-In order to use this course material, we recommend that you fork the repo and open it in GitHub Codespaces. Please read the [Codespaces section](https://docs.science.ai.cam.ac.uk/hands-on-llms/setting-up/codespaces/) in the Setting Up page of the website, and carefully follow those instructions. Failure to do so may result in some sections of the course to not work as intended.
+In order to use this course material, we recommend that you fork the repo and open it in GitHub Codespaces. Please read the [Codespaces section](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/setting-up/codespaces/) in the Setting Up page of the website, and carefully follow those instructions. Failure to do so may result in some sections of the course to not work as intended.
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -120,16 +120,16 @@ Distributed under an MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/acceleratescience/hands-on-llms.svg?style=for-the-badge
-[contributors-url]: https://github.com/acceleratescience/hands-on-llms/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/acceleratescience/hands-on-llms.svg?style=for-the-badge
-[forks-url]: https://github.com/acceleratescience/hands-on-llms/network/members
-[stars-shield]: https://img.shields.io/github/stars/acceleratescience/hands-on-llms.svg?style=for-the-badge
-[stars-url]: https://github.com/acceleratescience/hands-on-llms/stargazers
-[issues-shield]: https://img.shields.io/github/issues/acceleratescience/hands-on-llms.svg?style=for-the-badge
-[issues-url]: https://github.com/acceleratescience/hands-on-llms/issues
-[license-shield]: https://img.shields.io/github/license/acceleratescience/hands-on-llms.svg?style=for-the-badge
-[license-url]: https://github.com/acceleratescience/hands-on-llms/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
+[contributors-url]: https://github.com/acceleratescience/hands-on-agentic-ai/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
+[forks-url]: https://github.com/acceleratescience/hands-on-agentic-ai/network/members
+[stars-shield]: https://img.shields.io/github/stars/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
+[stars-url]: https://github.com/acceleratescience/hands-on-agentic-ai/stargazers
+[issues-shield]: https://img.shields.io/github/issues/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
+[issues-url]: https://github.com/acceleratescience/hands-on-agentic-ai/issues
+[license-shield]: https://img.shields.io/github/license/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
+[license-url]: https://github.com/acceleratescience/hands-on-agentic-ai/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/company/accelerate-programme-for-scientific-discovery/
 [product-screenshot]: images/screenshot.png

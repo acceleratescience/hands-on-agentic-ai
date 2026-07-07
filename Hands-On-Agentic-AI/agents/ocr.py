@@ -32,7 +32,7 @@ def ocr(image_path, prompt='', client=None):
     ]
 
     response = client.chat.completions.create(
-        model="Qwen/Qwen3.5-27B-FP8",
+        model="Qwen/Qwen3.6-27B-FP8",
         messages=messages,
         temperature=1.0,
         top_p=0.95,

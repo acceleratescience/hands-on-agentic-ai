@@ -1,31 +1,33 @@
 [project]
-name = "hands-on-llms"
+name = "hands-on-agentic-ai"
 version = "0.1.0"
-description = "A hands on guide to working with LLMs"
+description = "A hands-on guide to building and using agentic AI systems for scientific research"
 authors = [
-    { name = "Ryan Daniels"},
-    { name = "Fin Griffin"},
-  ]
+    { name = "Radzim Sendyka" },
+    { name = "Fariba Yousefi" },
+    { name = "Ryan Daniels" },
+]
 license = { text = "GPL-3.0-or-later" }
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
+
 dependencies = [
     "llama-index>=0.11.23",
-    "openai >= 1.54.4",
+    "openai>=1.54.4",
     "python-dotenv>=1.0.1",
-    "rich >= 13.9.4",
-    "pydantic >= 2.9.2",
-    "chromadb >= 0.5.18",
-    "streamlit >= 1.40.1",
-    "transformers >= 4.46.2",
-    "matplotlib >= 3.9.2",
-    "seaborn >= 0.13.2",
-    "scikit-learn >= 1.5.2",
-    "pysyllables >= 1.0.3",
-    "Jinja2 >= 3.1.4",
-    "tqdm >= 4.67.0",
-    "numpy >= 2.1.3",
-    "PyMuPDF >= 1.24.13",
+    "rich>=13.9.4",
+    "pydantic>=2.9.2",
+    "chromadb>=0.5.18",
+    "streamlit>=1.40.1",
+    "transformers>=4.46.2",
+    "matplotlib>=3.9.2",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.5.2",
+    "pysyllables>=1.0.3",
+    "Jinja2>=3.1.4",
+    "tqdm>=4.67.0",
+    "numpy>=2.1.3",
+    "PyMuPDF>=1.24.13",
     "ipykernel>=6.30.1",
     "langgraph>=1.1.3",
     "langchain>=1.2.13",
@@ -34,11 +36,16 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-  "mkdocs>=1.6.1,<2.0.0",
-  "mkdocs-jupyter>=0.25.1",
-  "mkdocs-material>=9.5.44,<10.0.0",
-  "mkdocstrings>=0.27.0,<0.28.0",
+    "mkdocs>=1.6.1,<2.0.0",
+    "mkdocs-jupyter>=0.25.1",
+    "mkdocs-material>=9.5.44,<10.0.0",
+    "mkdocstrings>=0.27.0,<0.28.0",
 ]
+
+[project.urls]
+Homepage = "https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/"
+Repository = "https://github.com/acceleratescience/hands-on-agentic-ai"
+Issues = "https://github.com/acceleratescience/hands-on-agentic-ai/issues"
 
 [tool.setuptools]
 packages = []

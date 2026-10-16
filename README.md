@@ -1,151 +1,114 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
-<!-- PROJECT SHIELDS -->
-<!-- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL License][license-shield]][license-url] -->
-[![MIT License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/)
-[![Issues](https://img.shields.io/github/issues-raw/acceleratescience/hands-on-agentic-ai.svg?maxAge=25000)](https://github.com/acceleratescience/hands-on-agentic-ai/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/acceleratescience/hands-on-agentic-ai.svg?style=flat)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/acceleratescience/hands-on-agentic-ai.svg?style=flat)]()
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
-<br>
-[![GitHub stars](https://img.shields.io/github/stars/acceleratescience/hands-on-agentic-ai.svg?style=social&label=Star)]()
-[![GitHub watchers](https://img.shields.io/github/watchers/acceleratescience/hands-on-agentic-ai.svg?style=social&label=Watch)]()
-[![GitHub forks](https://img.shields.io/github/forks/acceleratescience/hands-on-agentic-ai.svg?style=social&label=Fork)](https://github.com/JonSnow/MyBadges)
-[![GitHub followers](https://img.shields.io/github/followers/acceleratescience.svg?style=social&label=Follow)](https://github.com/JonSnow/MyBadges)
-[![Twitter Follow](https://img.shields.io/twitter/follow/AccelerateSci.svg?style=social)](https://twitter.com/AccelerateSci)
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
-
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://acceleratescience.github.io/">
-    <img src="./assets/imgs/full_acc.png" alt="Logo" height=80>
-  </a>
 
-  <h3 align="center">Hands On Workshop for Agentic AI</h3>
+<a href="https://science.ai.cam.ac.uk/">
+  <img src="./assets/imgs/full_acc.png" alt="Accelerate Science" height="80">
+</a>
 
-  <p align="justify">
-    An introduction to Agentic AI for scientific research - a practical introduction to using models.
-  </p>
-  <p align="center">
-    <!-- <a href="https://acceleratescience.github.io/hands-on-agentic-ai/" style="font-size: 20px; text-decoration: none"><strong>Start »</strong></a>
-    <br />
-    <br /> -->
-    <a href="https://github.com/acceleratescience/large-language-models">Check out the introductory course</a>
-    <br />
-    <a href="https://github.com/acceleratescience/hands-on-agentic-ai/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/acceleratescience/hands-on-agentic-ai/issues">Request Feature</a>
-    <br />
-    <br />
-    <a href="https://docs.science.ai.cam.ac.uk/hands-on-llms/"><strong>Head to the hands-on course Website »</strong></a>
-  </p>
+# Hands-On Agentic AI
+
+**A practical workshop on building and understanding agentic AI systems for scientific research.**
+
+[Course website](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/) ·
+[Report an issue](https://github.com/acceleratescience/hands-on-agentic-ai/issues) ·
+[Accelerate Science](https://science.ai.cam.ac.uk/)
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/acceleratescience/hands-on-agentic-ai)](https://github.com/acceleratescience/hands-on-agentic-ai/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/acceleratescience/hands-on-agentic-ai)](https://github.com/acceleratescience/hands-on-agentic-ai/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/acceleratescience/hands-on-agentic-ai?style=social)](https://github.com/acceleratescience/hands-on-agentic-ai/stargazers)
+
 </div>
 
+## Overview
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
+This repository contains the materials for the **Hands-On Agentic AI** workshop from [Accelerate Science](https://science.ai.cam.ac.uk/).
 
+The workshop provides a practical introduction to building AI systems that go beyond individual language-model calls. The emphasis is on understanding how the components of an agentic system fit together and gaining experience by working directly with code.
 
+The material is designed primarily for researchers and developers interested in applying agentic AI to scientific research.
 
-<!---------------------------------------------------------------------------->
+For the guided version of the workshop, use the:
 
-[Button Shield]: https://img.shields.io/badge/Shield_Buttons-37a779?style=for-the-badge
+**[Hands-On Agentic AI course website →](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/)**
 
-[License]: LICENSE
-[Shield]: Types/Shield.md
-[#]: #
-
-
-<!---------------------------------[ Badges ]---------------------------------->
-
-[Badge License]: https://img.shields.io/badge/-BY_SA_4.0-ae6c18.svg?style=for-the-badge&labelColor=EF9421&logoColor=white&logo=CreativeCommons
-[Badge Likes]: https://img.shields.io/github/stars/MarkedDown/Buttons?style=for-the-badge&labelColor=d0ab23&color=b0901e&logoColor=white&logo=Trustpilot
-
-# Overview
-This repository is a hands-on tutorial on how to use large language models for scientific research. It is designed as a reference source for our hands-on LLM workshop, but may be useful for others to get started with LLMs. To get started, follow the link and head to the website.
-
-<!-- GETTING STARTED -->
 ## Prerequisites
-This project requires some prerequisites in terms of skill level: you should be proficient with Python and PyTorch, and some understanding of git would be helpful. A good indication of skill level would be: can you open VS Code (or some other editor) and create some kind of class with attributes and methods? If so, then you'll probably be fine with this workshop.
 
-We also strongly recommend our introductory course on LLMs
+You should be comfortable with:
 
----
-<p align="center">
-    <a href="https://docs.science.ai.cam.ac.uk/hands-on-llms/"><strong>Head to the hands-on course Website »</strong></a>
-</p>
+- Python
+- Jupyter notebooks
+- basic object-oriented programming
+- Git and GitHub
+- working in a code editor such as VS Code
 
----
+The project requires **Python 3.11 or newer**.
 
-In order to use this course material, we recommend that you fork the repo and open it in GitHub Codespaces. Please read the [Codespaces section](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/setting-up/codespaces/) in the Setting Up page of the website, and carefully follow those instructions. Failure to do so may result in some sections of the course to not work as intended.
+Some familiarity with large language models is helpful. If you are new to LLMs, we recommend completing our introductory material first:
 
-<!-- CONTRIBUTING -->
+**[Introduction to Large Language Models →](https://github.com/acceleratescience/large-language-models)**
+
+## Getting started
+
+We recommend running the workshop using **GitHub Codespaces**, which provides a preconfigured development environment in your browser.
+
+### 1. Fork this repository
+
+Click **Fork** at the top of this repository to create your own copy.
+
+### 2. Open your fork in GitHub Codespaces
+
+Follow the setup instructions in the course documentation:
+
+**[Setting up with Codespaces →](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/setting-up/codespaces/)**
+
+### 3. Follow the workshop
+
+Once your environment is running, work through the material using the course website:
+
+**[Start the workshop →](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/)**
+
+## Repository structure
+
+The repository contains the Agentic AI workshop alongside supporting material from the Hands-On LLM course.
+
+```text
+.
+├── Hands-On-Agentic-AI/   # Agentic AI workshop materials
+├── Hands-On-LLMs/         # Supporting LLM material
+├── assets/                # Repository assets
+├── mkdocs.yml             # Documentation configuration
+├── pyproject.toml          # Python project configuration
+└── uv.lock                # Locked Python dependencies
+```
+
 ## Contributing
 
-Development of this material is an ongoing process, and given the rapid advancement of LLM libraries may contain bugs or out of date information.
+This workshop is actively developed. Agentic AI tooling changes quickly, so examples may occasionally need updating.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions, bug reports, and suggestions are welcome.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+To contribute:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the repository.
+2. Create a branch:
+   ```bash
+   git checkout -b feature/my-improvement
+   ```
+3. Make and commit your changes.
+4. Push your branch.
+5. Open a pull request.
 
+You can also [open an issue](https://github.com/acceleratescience/hands-on-agentic-ai/issues) to report a bug or suggest an improvement.
 
-<!-- LICENSE -->
+## Related resources
+
+- [Accelerate Science](https://science.ai.cam.ac.uk/)
+- [Hands-On Agentic AI documentation](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/)
+- [Large Language Models introductory course](https://github.com/acceleratescience/large-language-models)
+- [Hands-On LLMs](https://github.com/acceleratescience/hands-on-llms)
+
 ## License
 
-Distributed under an MIT License. See `LICENSE` for more information.
+This project is distributed under the **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
-[contributors-url]: https://github.com/acceleratescience/hands-on-agentic-ai/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
-[forks-url]: https://github.com/acceleratescience/hands-on-agentic-ai/network/members
-[stars-shield]: https://img.shields.io/github/stars/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
-[stars-url]: https://github.com/acceleratescience/hands-on-agentic-ai/stargazers
-[issues-shield]: https://img.shields.io/github/issues/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
-[issues-url]: https://github.com/acceleratescience/hands-on-agentic-ai/issues
-[license-shield]: https://img.shields.io/github/license/acceleratescience/hands-on-agentic-ai.svg?style=for-the-badge
-[license-url]: https://github.com/acceleratescience/hands-on-agentic-ai/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/company/accelerate-programme-for-scientific-discovery/
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+See [LICENSE](./LICENSE) for details.

@@ -63,19 +63,18 @@ Once your environment is running, work through the material using the course web
 
 **[Start the workshop →](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/)**
 
-## Repository structure
+## Course structure
 
 The repository contains the Agentic AI workshop alongside supporting material from the Hands-On LLM course.
 
-```text
-.
-├── Hands-On-Agentic-AI/   # Agentic AI workshop materials
-├── Hands-On-LLMs/         # Supporting LLM material
-├── assets/                # Repository assets
-├── mkdocs.yml             # Documentation configuration
-├── pyproject.toml          # Python project configuration
-└── uv.lock                # Locked Python dependencies
-```
+1. Interfaces [R]
+2. Model Types (Optional) [R] (TODO merge into Interfaces)
+3. Model Examples [R/F] (TODO merge examples-1 and -2)
+4. Practicalities [R]
+5. Presentation: What is Agentic AI (TODO align with rest of workshop flow)[F]
+6. Notebook: Building up to Agentic AI
+7. Potentially What is Agentic AI second part [F]
+8. Hackathon: 3 starting point notebooks to choose from (TODO, one from R, F, A)
 
 ## Contributing
 

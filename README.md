@@ -27,10 +27,6 @@ The workshop provides a practical introduction to building AI systems that go be
 
 The material is designed primarily for researchers and developers interested in applying agentic AI to scientific research.
 
-For the guided version of the workshop, use the:
-
-**[Hands-On Agentic AI course website →](https://docs.science.ai.cam.ac.uk/hands-on-agentic-ai/)**
-
 ## Prerequisites
 
 You should be comfortable with:

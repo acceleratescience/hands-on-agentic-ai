@@ -1,0 +1,19 @@
+{
+    "name": "Electoral College",
+    "rules": "Two players compete in a Cambridge Vice-Chancellor election across 12 colleges, each with a specified number of Fellows. Each player simultaneously allocates up to 100 pennies among the colleges, using non-negative integers. Each college awards exactly one electoral vote to the higher donor regardless of its number of Fellows; tied donations award no vote. The player with more electoral votes wins; equal totals result in a draw. Invalid allocations automatically lose; if both allocations are invalid, the game is a draw.",
+    "college_fellows": {
+        "Peterhouse": 11,
+        "Clare": 10,
+        "Pembroke": 8,
+        "Gonville and Caius": 12,
+        "Trinity Hall": 6,
+        "Corpus Christi": 9,
+        "King's College": 13,
+        "Queens' College": 7,
+        "King's Hall": 5,
+        "Michaelhouse": 7,
+        "God's House": 4,
+        "Buckingham College": 8
+    },
+    "evaluation_function": "def evaluate(player, opponent, college_fellows):\n    def valid(allocation):\n        return (isinstance(allocation, dict) and set(allocation) == set(college_fellows)\n                and all(type(x) is int and x >= 0 for x in allocation.values()) and sum(allocation.values()) <= 100)\n    p_valid, o_valid = valid(player), valid(opponent)\n    if not p_valid or not o_valid:\n        return 0.5 if not p_valid and not o_valid else 1 if p_valid else 0\n    p, o = player, opponent\n    votes = sum(1 for c in college_fellows if p[c] > o[c])\n    opponent_votes = sum(1 for c in college_fellows if p[c] < o[c])\n    return 1 if votes > opponent_votes else 0.5 if votes == opponent_votes else 0"
+}

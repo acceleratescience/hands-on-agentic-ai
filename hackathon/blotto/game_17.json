@@ -1,0 +1,32 @@
+{
+    "name": "Large Electorate",
+    "rules": "Two players compete in a Cambridge Vice-Chancellor election across 25 colleges, each with a specified number of Fellows. Each player simultaneously allocates up to 250 pennies among the colleges, using non-negative integers. The player donating more to a college receives all its Fellows' votes; tied donations award no votes. The player with more total votes wins; equal totals result in a draw. Invalid allocations automatically lose; if both allocations are invalid, the game is a draw.",
+    "college_fellows": {
+        "Peterhouse": 5,
+        "Clare": 6,
+        "Pembroke": 3,
+        "Gonville and Caius": 7,
+        "Trinity Hall": 4,
+        "Corpus Christi": 5,
+        "King's College": 8,
+        "Queens' College": 6,
+        "King's Hall": 4,
+        "Michaelhouse": 3,
+        "God's House": 2,
+        "Buckingham College": 5,
+        "Christ's College": 3,
+        "Jesus College": 4,
+        "St John's College": 5,
+        "Magdalene College": 3,
+        "Trinity College": 5,
+        "St Catharine's College": 4,
+        "Emmanuel College": 3,
+        "Sidney Sussex College": 4,
+        "Downing College": 2,
+        "Selwyn College": 3,
+        "Newnham College": 2,
+        "Fitzwilliam College": 2,
+        "Churchill College": 2
+    },
+    "evaluation_function": "def evaluate(player, opponent, college_fellows):\n    def valid(allocation):\n        return (isinstance(allocation, dict) and set(allocation) == set(college_fellows)\n                and all(type(x) is int and x >= 0 for x in allocation.values()) and sum(allocation.values()) <= 250)\n    p_valid, o_valid = valid(player), valid(opponent)\n    if not p_valid or not o_valid:\n        return 0.5 if not p_valid and not o_valid else 1 if p_valid else 0\n    p, o = player, opponent\n    votes = sum(v for c, v in college_fellows.items() if p[c] > o[c])\n    opponent_votes = sum(v for c, v in college_fellows.items() if p[c] < o[c])\n    return 1 if votes > opponent_votes else 0.5 if votes == opponent_votes else 0"
+}

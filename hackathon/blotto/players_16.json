@@ -1,0 +1,114 @@
+{
+    "Even Steven": {
+        "Peterhouse": 17,
+        "Clare": 17,
+        "Pembroke": 17,
+        "Gonville and Caius": 17,
+        "Trinity Hall": 16,
+        "Corpus Christi": 16
+    },
+    "Proportional Percy": {
+        "Peterhouse": 22,
+        "Clare": 14,
+        "Pembroke": 18,
+        "Gonville and Caius": 17,
+        "Trinity Hall": 12,
+        "Corpus Christi": 17
+    },
+    "Majority Mary": {
+        "Peterhouse": 34,
+        "Clare": 0,
+        "Pembroke": 33,
+        "Gonville and Caius": 33,
+        "Trinity Hall": 0,
+        "Corpus Christi": 0
+    },
+    "Tactical Thomas": {
+        "Peterhouse": 39,
+        "Clare": 0,
+        "Pembroke": 31,
+        "Gonville and Caius": 30,
+        "Trinity Hall": 0,
+        "Corpus Christi": 0
+    },
+    "Random Robin": {
+        "Peterhouse": 20,
+        "Clare": 7,
+        "Pembroke": 22,
+        "Gonville and Caius": 33,
+        "Trinity Hall": 2,
+        "Corpus Christi": 16
+    },
+    "Selective Simon": {
+        "Peterhouse": 17,
+        "Clare": 0,
+        "Pembroke": 0,
+        "Gonville and Caius": 0,
+        "Trinity Hall": 53,
+        "Corpus Christi": 30
+    },
+    "Penny Pincher": {
+        "Peterhouse": 0,
+        "Clare": 0,
+        "Pembroke": 0,
+        "Gonville and Caius": 95,
+        "Trinity Hall": 5,
+        "Corpus Christi": 0
+    },
+    "Greedy Geoffrey": {
+        "Peterhouse": 100,
+        "Clare": 100,
+        "Pembroke": 100,
+        "Gonville and Caius": 100,
+        "Trinity Hall": 100,
+        "Corpus Christi": 100
+    },
+    "Devious Douglas": {
+        "Peterhouse": -10000,
+        "Clare": 100,
+        "Pembroke": 100,
+        "Gonville and Caius": 100,
+        "Trinity Hall": 100,
+        "Corpus Christi": 100
+    },
+    "Chaos Charles": {
+        "Peterhouse": 33,
+        "Clare": 11,
+        "Pembroke": 34,
+        "Gonville and Caius": 9,
+        "Trinity Hall": 0,
+        "Corpus Christi": 13
+    },
+    "Ambush Arthur": {
+        "Peterhouse": 51,
+        "Clare": 31,
+        "Pembroke": 3,
+        "Gonville and Caius": 10,
+        "Trinity Hall": 2,
+        "Corpus Christi": 3
+    },
+    "Mastermind Margaret": {
+        "Peterhouse": 33,
+        "Clare": 5,
+        "Pembroke": 24,
+        "Gonville and Caius": 15,
+        "Trinity Hall": 2,
+        "Corpus Christi": 21
+    },
+    "Qwen the Conqueror": {
+        "Peterhouse": 15,
+        "Clare": 8,
+        "Pembroke": 12,
+        "Gonville and Caius": 11,
+        "Trinity Hall": 7,
+        "Corpus Christi": 11
+    },
+    "Kimi the Third": {
+        "Peterhouse": 0,
+        "Clare": 17,
+        "Pembroke": 0,
+        "Gonville and Caius": 17,
+        "Trinity Hall": 16,
+        "Corpus Christi": 0
+    }
+}

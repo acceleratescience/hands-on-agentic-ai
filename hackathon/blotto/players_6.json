@@ -1,0 +1,62 @@
+{
+    "Even Steven": {
+        "King's College": 10,
+        "Peterhouse": 10
+    },
+    "Proportional Percy": {
+        "King's College": 10,
+        "Peterhouse": 10
+    },
+    "Majority Mary": {
+        "King's College": 20,
+        "Peterhouse": 0
+    },
+    "Tactical Thomas": {
+        "King's College": 20,
+        "Peterhouse": 0
+    },
+    "Random Robin": {
+        "King's College": 16,
+        "Peterhouse": 4
+    },
+    "Selective Simon": {
+        "King's College": 0,
+        "Peterhouse": 20
+    },
+    "Penny Pincher": {
+        "King's College": 9,
+        "Peterhouse": 11
+    },
+    "Greedy Geoffrey": {
+        "King's College": 20,
+        "Peterhouse": 20
+    },
+    "Devious Douglas": {
+        "King's College": -10000,
+        "Peterhouse": 20
+    },
+    "Chaos Charles": {
+        "King's College": 19,
+        "Peterhouse": 1
+    },
+    "Ambush Arthur": {
+        "King's College": 15,
+        "Peterhouse": 5
+    },
+    "Mastermind Margaret": {
+        "King's College": 20,
+        "Peterhouse": 0
+    },
+    "Qwen the Conqueror": {
+        "King's College": 11,
+        "Peterhouse": 9
+    },
+    "Kimi the Third": {
+        "King's College": 11,
+        "Peterhouse": 9
+    },
+    "Lord GLM": {
+        "King's College": 0,
+        "Peterhouse": 0
+    }
+}
